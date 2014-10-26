@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+#abort "you need to write me"
+require 'chinampa'
+ch = Chinampa.new(10,20)
+puts "A chinampa of #{ch.rows} rows and #{ch.cols} cols."
+ch.plant(2,3,4)
+ch.plant(2,4,4)
+ch.plant(2,4,5)
+ch.plant(1,5,6)
+puts ch
